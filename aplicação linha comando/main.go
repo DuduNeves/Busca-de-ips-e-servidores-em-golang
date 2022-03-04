@@ -8,8 +8,8 @@ import (
 
 func main() {
 
-	aplicação := app.Gerar()
-	err := aplicação.Run(os.Args)
+	aplicacao := app.Gerar()
+	err := aplicacao.Run(os.Args)
 	if err != nil {
 		log.Fatal(err)
 	}
